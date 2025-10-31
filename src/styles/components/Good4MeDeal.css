@@ -1,0 +1,47 @@
+.Good4MeDeal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Good4MeDeal__content {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Good4MeDeal__content__text_1 {
+  height: auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 89%;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.Good4MeDeal__content__conteiner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Good4MeDeal__content__text_2 {
+  background-color: var(--color-orange);
+  width: 127px;
+  height: 4px;
+}
+
+.Good4MeDeal__content__text_3 {
+  height: auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: var(--color-gray);
+}

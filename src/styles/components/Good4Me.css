@@ -1,0 +1,41 @@
+.Good4Me {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  gap: 41px;
+}
+
+.Good4Me__header {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 89%;
+  color: var(--color-black);
+}
+
+.Good4Me__conteiner {
+  display: flex;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+
+.Good4Me__conteiner-1 {
+  width: 318px;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.Good4Me__conteiner-1__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
